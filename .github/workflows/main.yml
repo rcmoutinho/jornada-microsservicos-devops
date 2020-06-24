@@ -38,8 +38,8 @@ jobs:
       - name: Executando testes
         run: |
           ./mvnw test
-          echo Parabéns por realizar testes!
-          echo Mas era só para testar múltiplos comandos :)
+          echo 'Parabéns por realizar testes!'
+          echo 'Mas era só para testar múltiplos comandos :)'
 
       - name: Empacotando a aplicação
         run: ./mvnw package
