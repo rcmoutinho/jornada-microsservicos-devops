@@ -1,4 +1,4 @@
-![](https://github.com/rcmoutinho/jornada-microsservicos-devops/workflows/main.yml/badge.svg)
+![](https://github.com/rcmoutinho/jornada-microsservicos-devops/workflows/automacao-livro-microsservicos/badge.svg)
 
 # Jornada Microsserviços - DevOps
 
