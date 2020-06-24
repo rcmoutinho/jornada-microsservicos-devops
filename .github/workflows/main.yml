@@ -33,7 +33,7 @@ jobs:
         run: ./mvnw clean
 
       - name: Compilando o código
-        run: ./mvnw build
+        run: ./mvnw compile
 
       - name: Executando testes
         run: |
