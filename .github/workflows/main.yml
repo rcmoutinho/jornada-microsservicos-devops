@@ -43,3 +43,10 @@ jobs:
 
       - name: Empacotando a aplicação
         run: ./mvnw package
+
+      # Armazenando o artefato gerado
+      - name: Arquivando o pacote .jar gerado
+        uses: actions/upload-artifact@v1
+        with:
+          name: snapshot
+          path: target/devops-0.0.1-SNAPSHOT.jar
