@@ -1,3 +1,5 @@
+![](https://github.com/rcmoutinho/jornada-microsservicos-devops/workflows/main.yml/badge.svg)
+
 # Jornada Microsserviços - DevOps
 
 Este é um projeto exemplo para demonstrar conceitos e ideias do capítulo DevOps do livro Jornada Microsserviços. Para saber mais sobre o livro, consulte o [repositório principal](https://github.com/roanbrasil/jornada_microservicos).
@@ -26,3 +28,7 @@ Uma alternativa é executar os seguintes comandos:
 ./mvnw clean package
 java -jar target/devops-0.0.1-SNAPSHOT.jar
 ```
+
+## Entendendo a automação
+
+O fluxo da automação está localizado em `.github/workflows/main.yml` ([aqui](./.github/workflows/main.yml)). Para facilitar o entendimento e documentação, o arquivo possui comentários explicando o objetivo de cada configuração.
