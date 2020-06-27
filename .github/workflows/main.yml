@@ -28,6 +28,14 @@ jobs:
           java-package: jdk # definindo como JDK (mas também poderia ser JRE...)
           architecture: x64 # define a arquitetura x64
 
+      # Melhorando a performance utilizando cache dos pacotes do Maven
+      - name: Armazenar Cache dos pacotes Maven
+        uses: actions/cache@v1
+        with:
+          path: ~/.m2
+          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+          restore-keys: ${{ runner.os }}-m2
+
       # Configura cada etapa desejada (mas poderia ser apenas um comando)
       - name: Limpando o ambiente
         run: ./mvnw clean
