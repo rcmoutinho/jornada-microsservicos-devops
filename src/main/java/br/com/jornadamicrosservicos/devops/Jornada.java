@@ -11,11 +11,11 @@ public class Jornada {
 	}
 
 	public long getId() {
-		return id;
+		return this.id;
 	}
 
 	public String getConteudo() {
-		return conteudo;
+		return this.conteudo;
 	}
 
 	public String toString() {
