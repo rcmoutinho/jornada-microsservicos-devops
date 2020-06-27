@@ -17,4 +17,8 @@ public class Jornada {
 	public String getConteudo() {
 		return conteudo;
 	}
+
+	public String toString() {
+		return "[" + this.id + "] " + this.conteudo;
+	}
 }
